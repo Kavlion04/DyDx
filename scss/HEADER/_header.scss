@@ -5,6 +5,13 @@ header {
     background-position: center;
     background-size: cover;
     padding: 20px 40px;
+    @media (max-width: 780px) {
+        height: auto;
+        
+    }
+    @media (max-width: 1140px) {
+        height: auto;
+    }
     .contianer {
         display: flex;
         flex-direction: column;
@@ -303,6 +310,7 @@ header {
                 align-items: center;
             
             a {
+                font-family: "Circular", sans-serif;
                 color: #ccc;
                 text-decoration: none;
                 font-size: 1.5rem;
