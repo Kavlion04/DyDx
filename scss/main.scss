@@ -1,0 +1,23 @@
+@import "./HEADER/header";
+@import "./all/p1/home";
+@import "./all/p2/about";
+@import "./all/p3/main";
+@import "./all/p4/p4";
+@import "./all/p5/p5";
+@import "./HEADER/footer";
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.contianer {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
