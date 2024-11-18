@@ -9,4 +9,12 @@
 .contianer {
   max-width: 1280px;
   margin: 0 auto;
+}
+
+body {
+  background-image: url("../assets/icons/Grid.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1c1c28;
 }/*# sourceMappingURL=main.css.map */
