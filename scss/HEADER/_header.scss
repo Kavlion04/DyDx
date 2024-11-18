@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 20px 40px;
+    .logo {
+        width: 100px;
+        height: 80px;
+    }
+    nav {
+        display: flex;
+        gap: 40px;
+
+        ul {
+            display: flex;
+            gap: 40px;
+            li {
+                display: flex;
+                    gap: 30px;
+                a {
+                    color: #fff;
+                    font-size: 18px;
+                    font-family: "Space Mono";
+                    font-weight: 400;
+                    
+
+                }
+                
+            }
+        }
+        .btn {
+            padding: 12px 14px;
+            background-color: #6966FF;
+            color: #fff;
+            font-family: "Space Mono";
+            font-weight: 500;
+            border-radius: 8px;
+            border: 0;
+        }
+        
+    }
+   
+}
+
