@@ -391,6 +391,237 @@ header .side-menu-footer img {
   src: url("../../assets/fonts/CircularStd-Medium.woff2");
   font-weight: 400;
 }
+.projects {
+  width: 100%;
+  margin-top: 80px;
+  padding-bottom: 160px;
+  background-size: cover;
+  background-position: center;
+}
+.projects .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects-text {
+  width: 45%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media (max-width: 1031px) {
+  .projects-text {
+    width: 60%;
+  }
+}
+@media (max-width: 700px) {
+  .projects-text {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .projects-text {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+.projects-text h2 {
+  font-family: "Circular Std", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.022em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+@media (max-width: 700px) {
+  .projects-text h2 {
+    font-size: 30px;
+  }
+}
+.projects-text p {
+  font-family: "Circular Std", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.014em;
+  text-align: center;
+  color: #C8C7D8;
+  margin-bottom: 20px;
+}
+.projects-text a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-text a button {
+  padding: 16px 24px;
+  background-color: transparent;
+  border: none;
+  font-family: "Circular Std", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.014em;
+  text-align: center;
+  color: #6966FF;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.projects-text a button:hover {
+  color: #7f7dfc;
+}
+.projects .carousel-container {
+  position: relative;
+  width: 100%;
+  height: 540px;
+  overflow: hidden;
+}
+.projects .carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+  padding-left: 60px;
+  cursor: grab;
+}
+.projects .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 540px;
+  flex: 0 0 400px;
+  margin: 0 10px;
+  background: #393953;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.projects .card:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.projects .card-circle {
+  border-radius: 16px;
+  width: 100%;
+  height: 30%;
+  background-color: #232334;
+}
+.projects .card .card-img {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+}
+.projects .card .card-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+}
+.projects .card .card-img img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  z-index: 2;
+}
+.projects .card .card-img img:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  z-index: 3;
+}
+.projects .card-text {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.projects .card-text h3 {
+  font-family: "Space Mono", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #A59EBA;
+}
+.projects .card-text h2 {
+  font-family: "Circular Std", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.019em;
+  text-align: left;
+  color: #fff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.projects .card-text-funding {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 16px;
+  gap: 10px;
+  color: #A59EBA;
+}
+.projects .card-text-funding b {
+  font-family: "Space Mono", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #A59EBA;
+}
+.projects .card-text p {
+  font-family: "Circular Std", sans-serif;
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 24px;
+  letter-spacing: -0.011em;
+  text-align: left;
+  color: #fff;
+}
+.projects .next-button {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.projects .next-button img {
+  width: 100%;
+}
+.projects .next-button:hover {
+  background: #e6e4e4;
+}
+@media (max-width: 700px) {
+  .projects .next-button {
+    display: none; /* Hide the Next button for mobile screens */
+  }
+}
+
 .footer {
   width: 100%;
   height: 75vh;
