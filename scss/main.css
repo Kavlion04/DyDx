@@ -1160,7 +1160,7 @@ header .header-title .header-title-buttons {
   align-items: center;
   gap: 20px;
   margin-top: 40px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 header .header-title .header-title-buttons button {
   padding: 16px 24px;
@@ -1198,7 +1198,12 @@ body {
 }
 
 .categories-images {
-  margin-top: 100px;
+  margin-left: 100px;
+}
+@media (max-width: 500px) {
+  .categories-images {
+    margin-left: 0px;
+  }
 }
 
 .categories-about {
@@ -1210,7 +1215,6 @@ body {
 }
 .categories-about .contiainer {
   width: 100%;
-  margin-top: 100px;
 }
 .categories-about .categories-about-card {
   background-color: #393953;
@@ -1226,9 +1230,16 @@ body {
   margin-bottom: 20px;
 }
 .categories-about .categories-about-card:hover {
-  box-shadow: #0b0a41 0px 4px 20px 0px;
+  box-shadow: #0b0a41 0px 4px 50px 0px;
   transition: all 0.3s ease;
-  transform: scale(1.1);
+  transform: scale(1.01);
+}
+@media (max-width: 500px) {
+  .categories-about .categories-about-card {
+    height: 300px;
+    width: 500px;
+    padding: 60px 40px;
+  }
 }
 .categories-about .categories-about-card .categories-about-card-header b {
   font-family: "Circular";
@@ -1284,6 +1295,11 @@ body {
 }
 .categories-about .categories-about-card .fff span {
   color: transparent;
+}
+@media (max-width: 500px) {
+  .categories-about .categories-about-card .fff span {
+    display: none;
+  }
 }
 .categories-about .categories-about-card .ff {
   position: relative;
