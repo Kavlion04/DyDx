@@ -1105,7 +1105,6 @@ header .side-menu-footer img {
     opacity: 1;
   }
 }
-<<<<<<< HEAD
 .hero-fnt {
   text-align: center;
   color: white;
@@ -1122,7 +1121,7 @@ header .side-menu-footer img {
   width: 700px;
   height: 130px;
   background-color: 255;
-=======
+}
 header .header-title {
   width: 65%;
   margin: 0 auto;
@@ -1411,7 +1410,6 @@ body {
 }
 .container .categories .second {
   position: absolute;
->>>>>>> 3475f7bb6789b490d851adef9a2f71c1dcd7f710
 }
 
 .footer {
