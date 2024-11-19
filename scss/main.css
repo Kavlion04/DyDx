@@ -391,6 +391,19 @@ header .side-menu-footer img {
   src: url("../../assets/fonts/CircularStd-Medium.woff2");
   font-weight: 400;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero.fnt {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 600px;
+}
+
 .footer {
   width: 100%;
   height: 75vh;
@@ -566,18 +579,6 @@ header .side-menu-footer img {
 }
 .footer-text-links-social a img {
   width: 24px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-h1 {
-  color: #fff;
-  font-size: 36px;
-  text-align: center;
 }
 
 * {
