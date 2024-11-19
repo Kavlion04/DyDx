@@ -392,16 +392,16 @@ header .side-menu-footer img {
   font-weight: 400;
 }
 * {
+  font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.hero.fnt {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-left: 600px;
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
 }
 
 .footer {
