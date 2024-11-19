@@ -3,7 +3,16 @@ body {
     font-family: "Circular Std", sans-serif;
 }
 
+.header_funded{
+   height: auto;
+   display: flex;
+   align-items: center;
+justify-content: center;
+padding-bottom: 90px;
+}
 .container {
+    
+   
     a {
         text-decoration: none;
 
@@ -34,8 +43,24 @@ body {
             justify-content: start;
             align-items: center;
             gap: 40px;
+            margin-left: 90px;
+            .chevron{
+                display: none;
+            }
         }
 
+        .form-check-input{
+           cursor: pointer;
+       margin-left: 90px;
+        }
+
+        .form-switch{
+            margin-left: 90px;
+           
+        }
+        .ms-3{
+            margin-left: 70px;
+        }
         .px_16 {
             a {
                 font-size: 16px;
@@ -74,8 +99,12 @@ body {
     }
 
     .categories {
-        margin-bottom: 160px;
-        height: 150vh;
+       
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(560px, 1fr));
+      gap: 30px;
+     column-gap: 20px;
 
         .fff {
             color: #FFFFFF;
@@ -103,7 +132,7 @@ body {
             border-radius: 16px;
 
             .avatar {
-                padding-top: 250px;
+                margin-top: 250px;
             }
 
             .px_24 {
@@ -116,11 +145,150 @@ body {
         }
 
         .second {
-            position: absolute;
+            position: relative;
+           .they{
+            margin-bottom: 300px;
+           }
+            .avatar{
+                position: absolute;
+                bottom: 24px;
+            }
+            .ikki{
+                left: 50px;
+            }
+        }
 
+        .fourt{
+            padding: 0;
+position: relative;
+       
+            .banner{
+                padding: 6px 24px 0 24px;
+
+.avatar{
+    left: 10px;
+    bottom: 20px;
+}
+                }
+
+                .banner img{
+                    position: absolute;
+                    left: 10px;
+    bottom: 20px;
+                }
+              .banner  {
+
+                .avata{
+                    left: 80px;
+    bottom: 30px;
+
+                }
+                .av{
+    bottom: 30px;
+    left: 110px;
+                }
+              
+              .ava{
+    bottom: 30px;
+    left: 45px;
+                }
+            }
+            }
+            
+.avatar{
+    padding-top: 0;
+    margin-top: 78px;
+    margin-bottom: 15px;
+}
+        .third{
+            width: 100%;
+            border: 1px solid #232334;
+            height: 180px;
+            background-color: #232334;
+            border-radius: 16px;
+        
+        }
+
+        .sss{
+           margin-bottom: 177px; 
         }
 
 
     }
 
+
+
+
+    }
+
+
+
+
+    @media (max-width: 1075px) {
+    .container .section {
+        .nav_bar{
+            gap: 25px;
+        }
+     }  
+    }
+
+
+    @media (max-width: 1075px) {
+        .container .section {
+            .nav_bar{
+              justify-content: left;
+              margin-left: 0;
+            }
+         }  
+    }
+
+    @media (max-width: 1075px) 
+{
+    .container .section {
+        .nav_bar 
+        {
+            align-items: center;
+            justify-content: center;
+          .party{
+            display: none;
+          }
+
+          .chevron{
+            display: block;
+          }
+        }
+     }  
+
+}
+
+@media (max-width: 1075px) 
+{
+ .container .section   .nav_bar 
+    {
+      .Analytics{
+        display: none;
+      }
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 500px) 
+{
+    .container .section {
+        .nav_bar
+        
+        {
+            justify-content: center;
+            gap: 15px;
+
+         .Growth, .Governance{
+            display: none;
+         }
+        }
+     }
 }

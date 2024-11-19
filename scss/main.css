@@ -900,6 +900,14 @@ body {
   font-family: "Circular Std", sans-serif;
 }
 
+.header_funded {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
 .container a {
   text-decoration: none;
 }
@@ -924,6 +932,20 @@ body {
   justify-content: start;
   align-items: center;
   gap: 40px;
+  margin-left: 90px;
+}
+.container .section .nav_bar .chevron {
+  display: none;
+}
+.container .section .form-check-input {
+  cursor: pointer;
+  margin-left: 90px;
+}
+.container .section .form-switch {
+  margin-left: 90px;
+}
+.container .section .ms-3 {
+  margin-left: 70px;
 }
 .container .section .px_16 {
   font-size: 16px;
@@ -953,8 +975,12 @@ body {
   color: #C8C7D8;
 }
 .container .categories {
-  margin-bottom: 160px;
-  height: 150vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(560px, 1fr));
+  gap: 30px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 .container .categories .fff {
   color: #FFFFFF;
@@ -979,7 +1005,7 @@ body {
   border-radius: 16px;
 }
 .container .categories .programs .avatar {
-  padding-top: 250px;
+  margin-top: 250px;
 }
 .container .categories .programs .px_24 {
   padding: 8px 0 8px 0;
@@ -988,9 +1014,99 @@ body {
   padding-top: 8px;
 }
 .container .categories .second {
+  position: relative;
+}
+.container .categories .second .they {
+  margin-bottom: 300px;
+}
+.container .categories .second .avatar {
   position: absolute;
+  bottom: 24px;
+}
+.container .categories .second .ikki {
+  left: 50px;
+}
+.container .categories .fourt {
+  padding: 0;
+  position: relative;
+}
+.container .categories .fourt .banner {
+  padding: 6px 24px 0 24px;
+}
+.container .categories .fourt .banner .avatar {
+  left: 10px;
+  bottom: 20px;
+}
+.container .categories .fourt .banner img {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+}
+.container .categories .fourt .banner .avata {
+  left: 80px;
+  bottom: 30px;
+}
+.container .categories .fourt .banner .av {
+  bottom: 30px;
+  left: 110px;
+}
+.container .categories .fourt .banner .ava {
+  bottom: 30px;
+  left: 45px;
+}
+.container .categories .avatar {
+  padding-top: 0;
+  margin-top: 78px;
+  margin-bottom: 15px;
+}
+.container .categories .third {
+  width: 100%;
+  border: 1px solid #232334;
+  height: 180px;
+  background-color: #232334;
+  border-radius: 16px;
+}
+.container .categories .sss {
+  margin-bottom: 177px;
 }
 
+@media (max-width: 1075px) {
+  .container .section .nav_bar {
+    gap: 25px;
+  }
+}
+@media (max-width: 1075px) {
+  .container .section .nav_bar {
+    justify-content: left;
+    margin-left: 0;
+  }
+}
+@media (max-width: 1075px) {
+  .container .section .nav_bar {
+    align-items: center;
+    justify-content: center;
+  }
+  .container .section .nav_bar .party {
+    display: none;
+  }
+  .container .section .nav_bar .chevron {
+    display: block;
+  }
+}
+@media (max-width: 1075px) {
+  .container .section .nav_bar .Analytics {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .container .section .nav_bar {
+    justify-content: center;
+    gap: 15px;
+  }
+  .container .section .nav_bar .Growth, .container .section .nav_bar .Governance {
+    display: none;
+  }
+}
 .footer {
   width: 100%;
   height: 75vh;
