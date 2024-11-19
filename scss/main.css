@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Flow+Circular&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Flow+Circular&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Pen+Script&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
 header {
   width: 100%;
   height: 100vh;
@@ -426,7 +427,7 @@ header .side-menu-footer img {
   }
 }
 .projects-text h2 {
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
@@ -442,7 +443,7 @@ header .side-menu-footer img {
   }
 }
 .projects-text p {
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -461,7 +462,7 @@ header .side-menu-footer img {
   padding: 16px 24px;
   background-color: transparent;
   border: none;
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -561,7 +562,7 @@ header .side-menu-footer img {
   color: #A59EBA;
 }
 .projects .card-text h2 {
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -588,7 +589,7 @@ header .side-menu-footer img {
   color: #A59EBA;
 }
 .projects .card-text p {
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
   font-size: 16px;
   font-weight: 450;
   line-height: 24px;
@@ -657,7 +658,7 @@ header .side-menu-footer img {
   }
 }
 .news-text h2 {
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
@@ -674,7 +675,7 @@ header .side-menu-footer img {
   }
 }
 .news-text p {
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -765,7 +766,7 @@ header .side-menu-footer img {
   color: #C8C7D8;
 }
 .news-cards .news-card-text h4 {
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -814,7 +815,7 @@ header .side-menu-footer img {
   }
 }
 .questions-text h2 {
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
@@ -825,7 +826,7 @@ header .side-menu-footer img {
   margin-top: 20px;
 }
 .questions-text p {
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -857,7 +858,7 @@ header .side-menu-footer img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
   font-size: 18px;
   font-weight: 450;
   line-height: 24px;
@@ -917,7 +918,7 @@ header .side-menu-footer img {
   }
 }
 .application-text h2 {
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
@@ -928,7 +929,7 @@ header .side-menu-footer img {
   margin-top: 20px;
 }
 .application-text p {
-  font-family: "Circular Std", sans-serif;
+  font-family: "Circular", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -949,66 +950,124 @@ header .side-menu-footer img {
   color: #bbbbbb;
 }
 .application .application-process .steps {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   gap: 20px;
+  position: relative;
+}
+@media (max-width: 770px) {
+  .application .application-process .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.application .application-process .steps .Right_arrow_curved {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 27%;
+}
+@media (max-width: 770px) {
+  .application .application-process .steps .Right_arrow_curved {
+    width: 100px;
+    top: 32%;
+    left: 15%;
+    transform: rotate(110deg);
+  }
+}
+@media (max-width: 500px) {
+  .application .application-process .steps .Right_arrow_curved {
+    width: 100px;
+    top: 28%;
+    left: 15%;
+    transform: rotate(90deg);
+  }
+}
+.application .application-process .steps .Right_arrow_curved2 {
+  position: absolute;
+  z-index: 10;
+  bottom: 15%;
+  right: 29%;
+}
+@media (max-width: 770px) {
+  .application .application-process .steps .Right_arrow_curved2 {
+    width: 100px;
+    bottom: 30%;
+    left: 8%;
+    transform: rotate(90deg);
+  }
+}
+@media (max-width: 500px) {
+  .application .application-process .steps .Right_arrow_curved2 {
+    width: 100px;
+    bottom: 33%;
+    left: 8%;
+    transform: rotate(90deg);
+  }
 }
 .application .application-process .steps .step {
+  width: 100%;
   height: 450px;
   background-color: #2e2e4d;
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px 30px 50px 30px;
   flex: 1;
   color: #fff;
   text-align: left;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-@media (max-width: 700px) {
+@media (max-width: 770px) {
   .application .application-process .steps .step {
-    flex-wrap: wrap;
     width: 80%;
+    height: auto;
     margin: 0 auto;
   }
 }
-.application .application-process .steps .step:nth-child(1) {
+.application .application-process .steps .step:nth-child(3) {
   transform: translateY(-10px) rotate(-2deg);
 }
-.application .application-process .steps .step:nth-child(2) {
+.application .application-process .steps .step:nth-child(4) {
   transform: translateY(-5px) rotate(2deg);
 }
-.application .application-process .steps .step:nth-child(3) {
+.application .application-process .steps .step:nth-child(5) {
   transform: translateY(10px) rotate(-3deg);
 }
+.application .application-process .steps .step b {
+  font-family: "Nanum Pen Script", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 80px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
 .application .application-process .steps .step h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-  color: #ffffff;
+  font-family: "Circular", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.019em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .application .application-process .steps .step p {
-  font-size: 14px;
-  line-height: 1.5;
-  color: #cccccc;
-}
-.application .application-process .arrows {
-  position: relative;
-}
-.application .application-process .arrows:before, .application .application-process .arrows:after {
-  content: "";
-  position: absolute;
-  width: 40px;
-  height: 2px;
-  background-color: #ffffff;
-}
-.application .application-process .arrows:before {
-  left: 25%;
-  top: 50%;
-  transform: rotate(45deg);
-}
-.application .application-process .arrows:after {
-  right: 25%;
-  top: 50%;
-  transform: rotate(-45deg);
+  font-family: "Circular", sans-serif;
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 24px;
+  letter-spacing: -0.011em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
 }
 
 @keyframes extend-line {
