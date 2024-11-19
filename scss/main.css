@@ -391,6 +391,7 @@ header .side-menu-footer img {
   src: url("../../assets/fonts/CircularStd-Medium.woff2");
   font-weight: 400;
 }
+<<<<<<< HEAD
 .projects {
   width: 100%;
   margin-top: 80px;
@@ -766,11 +767,81 @@ header .side-menu-footer img {
 }
 .news-cards .news-card-text h4 {
   font-family: "Circular Std", sans-serif;
+=======
+body {
+  font-family: "Circular Std", sans-serif;
+}
+
+.container a {
+  text-decoration: none;
+}
+.container a header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .section h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -0.022em;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.container .section .nav_bar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+}
+.container .section .px_16 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.011em;
+  text-align: center;
+  color: #C8C7D8;
+}
+.container .section .px_16 a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.011em;
+  text-align: center;
+  color: #C8C7D8;
+}
+.container .section .px_16 a:hover {
+  color: #fff;
+}
+.container .section .all {
+  padding: 12px 16px 0 16px;
+  background: #393953;
+  border-radius: 8px;
+}
+.container .form-check .px_16 {
+  color: #C8C7D8;
+}
+.container .categories {
+  margin-bottom: 160px;
+  height: 150vh;
+}
+.container .categories .fff {
+  color: #FFFFFF;
+}
+.container .categories .category {
+  color: #A59EBA;
+}
+.container .categories .px_24 {
+>>>>>>> 822b971959718bdd1794e43811c641b05e77ff00
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
   letter-spacing: -0.019em;
   text-align: left;
+<<<<<<< HEAD
   color: #fff;
   margin-top: 10px;
   margin-bottom: 70px;
@@ -896,6 +967,31 @@ header .side-menu-footer img {
     opacity: 1;
   }
 }
+=======
+}
+.container .categories .programs {
+  text-align: left;
+  border: 1px solid #393953;
+  background-color: #393953;
+  padding: 24px 24px;
+  border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  width: 390px;
+  border-radius: 16px;
+}
+.container .categories .programs .avatar {
+  padding-top: 250px;
+}
+.container .categories .programs .px_24 {
+  padding: 8px 0 8px 0;
+}
+.container .categories .programs:nth-child(4) {
+  padding-top: 8px;
+}
+.container .categories .second {
+  position: absolute;
+}
+
+>>>>>>> 822b971959718bdd1794e43811c641b05e77ff00
 .footer {
   width: 100%;
   height: 75vh;
