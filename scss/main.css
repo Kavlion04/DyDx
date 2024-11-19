@@ -1,3 +1,12 @@
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -0.022em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 * {
   margin: 0;
   padding: 0;
