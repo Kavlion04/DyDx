@@ -1,32 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DYDX Grands</title>
-    <link rel="shortcut icon" href="./assets/icons/Logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="shortcut icon" href="./assets/images/Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./scss/main.css" />
 </head>
+
 <body>
     <header>
-        <img class="logo" src="./assets/icons/Logo.png" alt="">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Discover initiatives</a>
-                    <a href="#">Funded grants</a>
-                    <a href="#">Program expenses</a>
-                    <a href="#">Blog</a>
-                    <a href="#">FAQ</a>
-                    
-                </li>
-            </ul>
-            <button class="btn">Apply for grants</button>
-        </nav>
+        <div class="container">
+            <div class="header-nav">
+                <img class="logo" src="./assets/images/Logo.png" alt="" />
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="./pages/about.html">Discover initiatives</a>
+                            <a href="./pages/Funded_grants.html">Funded grants</a>
+                            <a href="./index.html">Program expenses</a>
+                            <a href="./pages/Blog.html">Blog</a>
+                            <a href="./pages/FAQ.html">FAQ</a>
+                        </li>
+                    </ul>
+                    <button class="btn">Apply <span>for grants</span></button>
 
+                    <img src="./assets/icons/fi_menu.svg" alt="" class="menu-button" onclick="toggleMenu()" />
+                </nav>
+            </div>
+            <div class="header-text">
+                <img class="header-text-img" src="./assets/icons/1.svg" alt="">
+                <h1>Powering the future of dYdX through community grants</h1>
+                <div class="header-text-btn">
+                    <button>Discover RFPs</button>
+                    <button>Apply for grant <img src="./assets/icons/fi_arrow-right.svg" alt=""></button>
+                </div>
+                <div class="header-text-cards">
+                    <div class="header-text-card">
+                        <b>100+</b>
+                        <p>projects funded</p>
+                    </div>
+                    <div class="header-text-card">
+                        <b>$3+ milion</b>
+                        <p>awarded</p>
+                    </div>
+                    <div class="header-text-card">
+                        <b>400+</b>
+                        <p>projects funded</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="side-menu">
+            <div class="side-menu-header">
+                <img class="logo" src="./assets/images/Logo.png" alt="" />
+                <div class="side-menu-header-buttons">
+                    <button class="btn">Apply <span>for grants</span></button>
+                    <div class="side-menu-close" onclick="toggleMenu()">&times;</div>
+                </div>
+            </div>
+            <div class="side-menu-links">
+                <a href="./pages/about.html">Discover initiatives</a>
+                <a href="./pages/Funded_grants.html">Funded grants</a>
+                <a href="./index.html">Program expenses</a>
+                <a href="./pages/Blog.html">Blog</a>
+                <a href="./pages/FAQ.html">FAQ</a>
+            </div>
+            <div class="side-menu-footer">
+                <img src="./assets/icons/Twitter_Negative.svg" alt="">
+                <img src="./assets/icons/Discord_Negative.svg" alt="">
+            </div>
+        </div>
     </header>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestiae officia voluptatibus natus quas laborum soluta, necessitatibus ut corrupti neque laudantium tempora debitis, libero similique fuga velit. Impedit repellat animi voluptas tenetur corporis, soluta temporibus eveniet sunt at! Vel odit vitae porro ratione possimus laborum iste, illum sit veniam est libero recusandae, qui distinctio, exercitationem id minima! Ab facilis unde, quae ad voluptate ullam aperiam dolore voluptates minus! Sit ullam et, quo distinctio, rem cumque atque ab eligendi aperiam obcaecati fugit excepturi quasi dolore sed vitae tempore impedit eveniet facilis alias maxime! Obcaecati quisquam iste ad. Dignissimos explicabo alias rem voluptate nesciunt, sed debitis soluta veritatis quisquam ut, inventore vitae quas delectus recusandae nemo tenetur autem aspernatur, beatae ratione sapiente amet? Sequi reprehenderit numquam reiciendis. Dicta expedita accusamus repellendus, tempore perspiciatis facere ad totam. Labore tempora porro saepe nobis iusto nam minus qui, earum tenetur eum, suscipit cumque. Saepe sit sequi, magni doloremque similique eligendi molestias! Earum, itaque sed veniam, autem magnam illo perferendis consequatur unde rerum beatae quos sequi vero aut dolorum dicta deserunt sint quaerat velit ea cupiditate? Itaque, possimus aliquam. Mollitia laboriosam odit repellendus optio architecto minima doloremque facilis rem! Quo, possimus debitis ut consequuntur eaque ipsa.
-    </p>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Have a project in mind?</p>
+                <h4>Let’s create something awesome.</h4>
+                <button>Apply for grant <img src="./assets/icons/fi_arrow-right2.svg" alt=""></button>
+            </div>
+            <div class="footer-text">
+                <img src="./assets/images/masterAvatar.svg" alt="">
+                <div class="footer-text-links">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Brand &nbsp; assets</a></li>
+                        <li><a href="#">dYdX &nbsp;  Foundation <img src="./assets/icons/fi_external-link.svg" alt=""></a></li>
+                        <li><a href="#">dYdX &nbsp; trading <img src="./assets/icons/fi_external-link.svg" alt=""></a></li>
+                    </ul>
+                    <div class="footer-text-links-social">
+                        <a href="htps://twitter.com/dydxdao"><img src="./assets/icons/Twitter_Negative.svg" alt=""></a>
+                        <a href="htps://discord.com/invite/dydx"><img src="./assets/icons/Discord_Negative.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/app.js"></script>
 </body>
+
 </html>
