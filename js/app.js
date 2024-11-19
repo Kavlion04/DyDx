@@ -127,3 +127,38 @@ const initializeCarousel = () => {
 
 initializeCarousel();
 window.addEventListener('resize', initializeCarousel);
+
+
+
+
+
+
+
+
+
+function toggleAccordion(element) {
+  const content = element.nextElementSibling;
+  const icon = element.querySelector(".icon");
+
+  // Close other open accordions
+  const allItems = document.querySelectorAll(".accordion-content");
+  allItems.forEach((item) => {
+    if (item !== content) {
+      item.style.display = "none";
+      const itemIcon = item.previousElementSibling.querySelector(".icon");
+      itemIcon.textContent = "+";
+      itemIcon.classList.remove("open");
+    }
+  });
+
+  // Toggle the clicked accordion
+  if (content.style.display === "block") {
+    content.style.display = "none";
+    icon.textContent = "+";
+    icon.classList.remove("open");
+  } else {
+    content.style.display = "block";
+    icon.textContent = "×";
+    icon.classList.add("open");
+  }
+}
