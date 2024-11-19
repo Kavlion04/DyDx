@@ -113,6 +113,11 @@ body {
         align-items: center;
         gap: 50px;
         margin-bottom: 20px;
+        &:hover {
+            box-shadow: #0b0a41 0px 4px 20px 0px;
+            transition: all 0.3s ease;
+            transform: scale(1.1);
+        }
         
         
 
