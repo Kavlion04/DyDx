@@ -637,6 +637,7 @@ header .side-menu-footer img {
   align-items: center;
 }
 .news-text {
+  position: relative;
   width: 45%;
   text-align: center;
   margin-bottom: 40px;
@@ -656,6 +657,11 @@ header .side-menu-footer img {
     width: 100%;
     padding: 0 20px;
   }
+}
+.news-text img {
+  position: absolute;
+  top: 0;
+  right: 33%;
 }
 .news-text h2 {
   font-family: "Circular", sans-serif;
@@ -1105,23 +1111,6 @@ header .side-menu-footer img {
     opacity: 1;
   }
 }
-.hero-fnt {
-  text-align: center;
-  color: white;
-}
-
-.nvbr-mnu {
-  text-decoration: none;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  margin-bottom: 50px;
-}
-
-.box {
-  width: 700px;
-  height: 130px;
-  background-color: 255;
-}
 header .header-title {
   width: 65%;
   margin: 0 auto;
@@ -1411,6 +1400,24 @@ body {
 }
 .container .categories .second {
   position: absolute;
+}
+
+.hero-fnt {
+  text-align: center;
+  color: white;
+}
+
+.nvbr-mnu {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+}
+
+.box {
+  width: 700px;
+  height: 130px;
+  background-color: 255;
 }
 
 .footer {
