@@ -979,8 +979,6 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(560px, 1fr));
   gap: 30px;
-  -moz-column-gap: 20px;
-       column-gap: 20px;
 }
 .container .categories .fff {
   color: #FFFFFF;
@@ -1065,6 +1063,13 @@ body {
   height: 180px;
   background-color: #232334;
   border-radius: 16px;
+}
+.container .categories .third .programs .avatar {
+  margin-top: 20px;
+}
+.container .categories .third .programs {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .container .categories .sss {
   margin-bottom: 177px;
